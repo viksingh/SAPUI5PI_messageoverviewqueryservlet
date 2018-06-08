@@ -1,0 +1,2 @@
+# SAPUI5PI_messageoverviewqueryservlet
+Reading messageoverviewqueryservlet from SAPUI5 application
