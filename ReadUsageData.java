@@ -45,7 +45,7 @@ public class ReadUsageData extends HttpServlet {
 		URI baseUri = null;
 		URI uri = null;
 		try {
-			baseUri = new URI("http://rdqsap.nestle.com:50200/mdt/messageoverviewqueryservlet");
+			baseUri = new URI("http://piserver:port/mdt/messageoverviewqueryservlet");
 		} catch (URISyntaxException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -53,7 +53,7 @@ public class ReadUsageData extends HttpServlet {
 		
         String encodedCredentials = "YXVzaW5naHZpOlNhcmVnYW1hMUA=";
         
-        String[] paramValues = {"component", "af.rdq.ddadb220", "view", "SR_ENTRY_OVERVIEW_XPI","begin", "2018-06-07 00:00:00.0","end","2018-06-08 00:00:00.0"
+        String[] paramValues = {"component", "_AE_NAME", "view", "SR_ENTRY_OVERVIEW_XPI","begin", "2018-06-07 00:00:00.0","end","2018-06-08 00:00:00.0"
         		,"detailedStatus","false"};
         
         try {
